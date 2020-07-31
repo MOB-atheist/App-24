@@ -1,6 +1,7 @@
 .header{
 	padding: 18px 0 14px;
-
+	background-color: #d8221b;
+	color:#FFF !important;
 }
 .logo img{
     display: inline-block;
@@ -45,10 +46,10 @@
 
 .right .navitem a {
 	font-size: 14px;
-	color: #000;
+	color: #FFF;
 }
 .right .navitem a:hover{
-    color:#00fa0cd8;
+    color:rgb(184, 184, 184);
 }
 .right .navitem:first-child {
 	margin-right: 29px;
@@ -89,12 +90,12 @@ h2 {
 }
 h2::after {
 	content: "";
-	width: 100px;
+	width: 100%;
 	position: absolute;
 	margin: 0 auto;
 	height: 4px;
 	border-radius: 1px;
-	background: #d9534f;
+	background:#d8221b;
 	left: 0;
 	right: 0;
 	bottom: -20px;
@@ -104,8 +105,8 @@ h2::after {
 	padding: 0 70px;
 }
 .carousel .item {
-	color: #747d89;
-	min-height: 325px;
+	color: #000000;
+	min-height: 200px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -118,8 +119,8 @@ h2::after {
 	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 .carousel .item .img-box {
-	height: 120px;
-	margin-bottom: 20px;
+	height: 100px;
+	margin-bottom:10px;
 	width: 100%;
 	position: relative;
 }
@@ -140,12 +141,12 @@ h2::after {
 	margin-bottom: 5px;
 }
 .carousel .thumb-content .btn {
-	color: #d9534f;
+	color: #d8221b;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: bold;
 	background: none;
-	border: 1px solid #d9534f;
+	border: 1px solid #d8221b;
 	padding: 6px 14px;
 	margin-top: 5px;
 	line-height: 16px;
@@ -153,7 +154,7 @@ h2::after {
 }
 .carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
 	color: #fff;
-	background: #d9534f;
+	background: #d8221b;
 	box-shadow: none;
 }
 .carousel .thumb-content .btn i {
@@ -172,13 +173,13 @@ h2::after {
 .carousel-control-prev, .carousel-control-next {
 	height: 44px;
 	width: 40px;
-	background: #d9534f;	
+	background: #d8221b;	
 	margin: auto 0;
 	border-radius: 4px;
 	opacity: 0.8;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
-	background: #d9534f;
+	background: #d8221b;
 	opacity: 1;
 }
 .carousel-control-prev i, .carousel-control-next i {
@@ -226,5 +227,10 @@ h2::after {
 	color: #abb0b8;
 }
 .carousel .wish-icon .fa-heart {
-	color: #ff6161;
+	color: #d8221b;
+}
+/* center banner */
+.center-banner img{
+	width:530px;
+	height:300px;
 }
