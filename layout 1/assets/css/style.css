@@ -48,18 +48,18 @@
 	color: #000;
 }
 .right .navitem a:hover{
-    color:red;
+    color:#00fa0cd8;
 }
 .right .navitem:first-child {
 	margin-right: 29px;
 }
 
-.carrinho {
+.shoppingbag {
 	display: inline-block;
 	position: relative;
 }
 
-.carrinho span {
+.shoppingbag span {
 	position: absolute;
 	top: -6px;
 	left: 100%;
@@ -67,7 +67,7 @@
 	min-width: 16px;
 	color: #fff;
 	font-size: 13px;
-	background: #e90000d8;
+	background: #00fa0cd8;
 	text-align: center;
 	border-radius: 30px;
 	padding: 0 2px;
@@ -94,7 +94,7 @@ h2::after {
 	margin: 0 auto;
 	height: 4px;
 	border-radius: 1px;
-	background: #7ac400;
+	background: #d9534f;
 	left: 0;
 	right: 0;
 	bottom: -20px;
@@ -140,12 +140,12 @@ h2::after {
 	margin-bottom: 5px;
 }
 .carousel .thumb-content .btn {
-	color: #7ac400;
+	color: #d9534f;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: bold;
 	background: none;
-	border: 1px solid #7ac400;
+	border: 1px solid #d9534f;
 	padding: 6px 14px;
 	margin-top: 5px;
 	line-height: 16px;
@@ -153,7 +153,7 @@ h2::after {
 }
 .carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
 	color: #fff;
-	background: #7ac400;
+	background: #d9534f;
 	box-shadow: none;
 }
 .carousel .thumb-content .btn i {
@@ -172,13 +172,13 @@ h2::after {
 .carousel-control-prev, .carousel-control-next {
 	height: 44px;
 	width: 40px;
-	background: #7ac400;	
+	background: #d9534f;	
 	margin: auto 0;
 	border-radius: 4px;
 	opacity: 0.8;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
-	background: #78bf00;
+	background: #d9534f;
 	opacity: 1;
 }
 .carousel-control-prev i, .carousel-control-next i {
@@ -227,11 +227,4 @@ h2::after {
 }
 .carousel .wish-icon .fa-heart {
 	color: #ff6161;
-}
-.star-rating li {
-	padding: 0;
-}
-.star-rating i {
-	font-size: 14px;
-	color: #ffc000;
 }
