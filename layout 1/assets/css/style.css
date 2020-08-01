@@ -1,3 +1,7 @@
+body {
+	background: #e2eaef;
+	font-family: "Open Sans", sans-serif;
+}
 /* Navbar Itens */
 .header{
 	padding: 18px 0 14px;
@@ -19,8 +23,8 @@
 	width: 100%;
 	height: 44px;
 	font-size: 14px;
-	border-radius: 50px;
-	border: none;
+	border-radius:50px;
+	border:none !important;
 	padding: 0 19px;
 	background: #f0f0f0;
 }
@@ -104,10 +108,6 @@
 	}
   }
 /* Carousel */
-body {
-	background: #e2eaef;
-	font-family: "Open Sans", sans-serif;
-}
 h2 {
 	color: #000;
 	font-size: 26px;
@@ -191,14 +191,6 @@ h2::after {
 	font-weight: bold;
 	margin-left: 5px;
 }
-.carousel .item-price {
-	font-size: 13px;
-	padding: 2px 0;
-}
-.carousel .item-price strike {
-	opacity: 0.7;
-	margin-right: 5px;
-}
 .carousel-control-prev, .carousel-control-next {
 	height: 44px;
 	width: 40px;
@@ -258,7 +250,9 @@ h2::after {
 .carousel .wish-icon .fa-heart {
 	color: #d8221b;
 }
-
+/* @media only screen and (max-width: 600px) {
+		Tenho que fazer aparecer so um item do carousel por vez quando tiver no mobile
+	} */
 /* center banner */
 .center-banner img{
 	width:530px;
