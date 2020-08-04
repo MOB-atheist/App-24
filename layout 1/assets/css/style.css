@@ -375,3 +375,11 @@ section {
     height: 120px;
     border-radius: 50%;
 }
+/* Footer */
+.footerbg{
+	background-color:#d8221b;
+	color:#FFF;
+}
+.text-muted{
+	color:rgb(182, 181, 181) !important;
+}
