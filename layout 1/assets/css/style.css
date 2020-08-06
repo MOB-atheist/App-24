@@ -253,6 +253,7 @@ h2::after {
 /* @media only screen and (max-width: 600px) {
 		Tenho que fazer aparecer so um item do carousel por vez quando tiver no mobile
 	} */
+
 /* center banner */
 .center-banner img{
 	width:530px;
@@ -260,6 +261,11 @@ h2::after {
 }
 .center-banner{
 	margin-top:70px;
+}
+@media only screen and (max-width:600px){
+	.b2{
+		display: none;
+	}
 }
 
 /* CardFlip */
