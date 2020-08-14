@@ -53,10 +53,13 @@ module.exports = {
           test: /\.(png|jpg)$/,
           include: path.join(__dirname, 'img'),
           loader: 'url-loader' 
+<<<<<<< HEAD
         },
         { 
           test: /\.rt$/,
           loader: "react-templates-loader?modules=amd" 
+=======
+>>>>>>> f42d38c2221c770901aa0a65a1d7f720f287d6f1
         }
       ]
     },
