@@ -1,24 +1,38 @@
 {
-  "name": "app-24",
+  "name": "reactjs-study",
   "version": "1.0.0",
-  "description": "App 24",
-  "main": "webpack.config.js",
+  "description": "Dedicated repository for my studies with reactjs framework and spa webpages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development",
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "npm run webpack -- --mode production"
+  },
+  "author": "pablo justino",
+  "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
-    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap": "^4.4.1",
     "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^4.0.1",
+    "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.2.1",
-    "favicons-webpack-plugin": "^4.2.0",
+    "css-minimizer-webpack-plugin": "^1.1.1",
     "file-loader": "^6.0.0",
     "history": "^1.17.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^0.10.0",
     "nodemon": "^2.0.4",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
+    "react-addons-linked-state-mixin": "^15.6.2",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
     "sass": "^1.26.10",
@@ -35,25 +49,25 @@
   "devDependencies": {
     "babel-jest": "^26.3.0",
     "jest": "^26.3.0",
-    "preload-webpack-plugin": "^3.0.0-beta.4",
     "react-test-renderer": "^16.13.1",
     "webpack-cli": "^3.3.12"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open --mode development",
-    "webpack": "webpack",
-    "dev": "npm run webpack -- --mode development --watch",
-    "build": "npm run webpack -- --mode production"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MOB-atheist/App-24.git"
+    "url": "git+https://github.com/MOB-atheist/ReactJS-study.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "reactjs",
+    "node",
+    "server",
+    "spa",
+    "study",
+    "learning",
+    "website",
+    "javascript"
+  ],
   "bugs": {
-    "url": "https://github.com/MOB-atheist/App-24/issues"
+    "url": "https://github.com/MOB-atheist/ReactJS-study/issues"
   },
-  "homepage": "https://github.com/MOB-atheist/App-24#readme"
+  "homepage": "https://github.com/MOB-atheist/ReactJS-study#readme"
 }
