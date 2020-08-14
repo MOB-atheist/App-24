@@ -1,0 +1,100 @@
+<div>
+    <header>
+        <div class="header">
+            <!-- Top Navbar -->
+            <div class="container">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="col-lg-2 text-center text-lg-left">
+                        <!-- <a href="./index.html" class="logo">
+                            <img src="assets/img/logo.png" alt="">
+                        </a> -->
+                    </div>
+                    <!-- Barra de pesquisa -->
+                    <div class="col-xl-6 col-lg-5">
+                        <form class="searchbar">
+                            <input type="text" placeholder="Pesquisar....">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <!-- Area carrinho -->
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="right">
+                            <div class="navitem">
+                                <i class="fas fa-user-circle"></i>
+                                <a href="#">Entrar</a> ou <a href="#">Criar uma conta</a>
+                            </div>
+                            <div class="navitem">
+                                <div class="shoppingbag">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <span>0</span>
+                                </div>
+                                <a href="#">Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End NavbarTop -->
+            <!-- Navbar Bottom -->
+            <ul class="nav justify-content-center bottomnav">
+                <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Restaurantes</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Link isolado</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Medicamentos</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Link isolado</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vestuario</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Link isolado</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Serviços</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Link isolado</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- End Navbar Bottom -->
+            <!-- Navbar Bottom Responsive -->
+            <ul class="nav justify-content-center bottomnav bottomnavsmall">
+                <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Restaurantes</a>
+                        <a class="dropdown-item" href="#">Medicamentos</a>
+                        <a class="dropdown-item" href="#">Vestuario</a>
+                        <a class="dropdown-item" href="#">Serviços</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- End Nav Bottom Responsive -->
+        </div>
+    </header>
+</div>

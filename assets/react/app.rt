@@ -1,5 +1,6 @@
- 
-<rt-require dependency="./components/header" as="Header"/>
+<rt-require dependency="./components/header/header" as="Header"/>
+<rt-require dependency="./components/carousel/carousel" as="Carousel"/>
 <div>
-    <Header></Header>
+    <Header class="header"></Header>
+    <Carousel class="carousel"></Carousel>
 </div>
