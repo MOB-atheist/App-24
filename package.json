@@ -1,68 +1,41 @@
 {
-  "name": "reactjs-study",
-  "version": "1.0.0",
-  "description": "APp 24",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open --mode development",
-    "webpack": "webpack",
-    "dev": "npm run webpack -- --mode development --watch",
-    "build": "npm run webpack -- --mode production"
-  },
-  "author": "pablo justino",
-  "license": "ISC",
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "bootstrap": "^4.4.1",
-    "clean-webpack-plugin": "^3.0.0",
-    "compression-webpack-plugin": "^4.0.1",
-    "copy-webpack-plugin": "^6.0.3",
-    "css-loader": "^4.2.1",
-    "css-minimizer-webpack-plugin": "^1.1.1",
-    "file-loader": "^6.0.0",
-    "history": "^1.17.0",
-    "html-loader": "^1.1.0",
-    "html-webpack-plugin": "^4.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
-    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router": "^5.2.0",
-    "sass": "^1.26.10",
-    "sass-loader": "^9.0.3",
-    "script-ext-html-webpack-plugin": "^2.1.4",
-    "style-loader": "^1.2.1",
-    "url-loader": "^4.1.0",
-    "webpack": "^4.44.1",
-    "webpack-dev-server": "^3.11.0",
-    "yarn": "^1.22.4"
+    "react-lazyload": "^3.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3"
   },
-  "devDependencies": {
-    "babel-jest": "^26.3.0",
-    "jest": "^26.3.0",
-    "webpack-cli": "^3.3.12"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MOB-atheist/ReactJS-study.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "reactjs",
-    "node",
-    "server",
-    "spa",
-    "study",
-    "learning",
-    "website",
-    "javascript"
-  ],
-  "bugs": {
-    "url": "https://github.com/MOB-atheist/ReactJS-study/issues"
-  },
-  "homepage": "https://github.com/MOB-atheist/ReactJS-study#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
