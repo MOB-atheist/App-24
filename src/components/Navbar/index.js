@@ -1,51 +1,28 @@
 import React, { Component } from 'react';
 import './styles.css';
+import Navitem from '../Navitem';
 
 export default class Navbar extends Component {
+
+    constructor(props){
+        super(props)
+    }
+
     render(){
+
+        const { menus } = this.props
+        
+        // Se não receber nemhum prop chamado menus, retornar null, o react entende que não é pra ser renderizado nada
+        if (typeof( menus ) === "undefined" ) return null;
+        
         return (
             <div>
                 <ul className="nav justify-content-center bottomnav">
-                    <li className="nav-item dropdown">
-                        <button className="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Restaurantes</button>
-                        <div className="dropdown-menu">
-                            <a className="dropdown-item">Ação</a>
-                            <a className="dropdown-item">Outra ação</a>
-                            <a className="dropdown-item">Algo mais aqui</a>
-                            <div className="dropdown-divider"></div>
-                            <a className="dropdown-item">Link isolado</a>
-                        </div>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <button className="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medicamentos</button>
-                        <div className="dropdown-menu">
-                            <a className="dropdown-item">Ação</a>
-                            <a className="dropdown-item">Outra ação</a>
-                            <a className="dropdown-item">Algo mais aqui</a>
-                            <div className="dropdown-divider"></div>
-                            <a className="dropdown-item">Link isolado</a>
-                        </div>
-                    </li>
-                    <li className="nav-item dropdown">
-                    <button className="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vestuario</button>
-                    <div className="dropdown-menu">
-                        <a className="dropdown-item">Ação</a>
-                        <a className="dropdown-item">Outra ação</a>
-                        <a className="dropdown-item">Algo mais aqui</a>
-                        <div className="dropdown-divider"></div>
-                        <a className="dropdown-item">Link isolado</a>
-                    </div>
-                    </li>
-                    <li className="nav-item dropdown">
-                    <button className="nav-link dropdown-toggle btnbottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</button>
-                    <div className="dropdown-menu">
-                        <a className="dropdown-item">Ação</a>
-                        <a className="dropdown-item">Outra ação</a>
-                        <a className="dropdown-item">Algo mais aqui</a>
-                        <div className="dropdown-divider"></div>
-                        <a className="dropdown-item">Link isolado</a>
-                    </div>
-                    </li>
+                    {menus.map( menu => (
+                        <li className="nav-item dropdown">
+                            <Navitem menu={menu} />
+                        </li>
+                    ))}
                 </ul>
                 <ul className="nav justify-content-center bottomnav bottomnavsmall">
                     <li className="nav-item dropdown">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
+import Favorite from '../Favorite';
 
 export default class Carousel extends Component {
     render(){
@@ -20,7 +21,7 @@ export default class Carousel extends Component {
                                     <div className="row">
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/1.jpeg" className="img-fluid" alt="" />								
                                                 </div>
@@ -32,7 +33,7 @@ export default class Carousel extends Component {
                                         </div>
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/2.jpeg" className="img-fluid" alt="Headphone" />
                                                 </div>
@@ -44,7 +45,7 @@ export default class Carousel extends Component {
                                         </div>		
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/3.jpeg" className="img-fluid" alt="Macbook" />
                                                 </div>
@@ -56,7 +57,7 @@ export default class Carousel extends Component {
                                         </div>								
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/4.jpeg" className="img-fluid" alt="Nikon" />
                                                 </div>
@@ -72,7 +73,7 @@ export default class Carousel extends Component {
                                     <div className="row">
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/5.jpeg" className="img-fluid" alt="Play Station" />
                                                 </div>
@@ -84,7 +85,7 @@ export default class Carousel extends Component {
                                         </div>
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/6.jpeg" className="img-fluid" alt="Macbook" />
                                                 </div>
@@ -96,7 +97,7 @@ export default class Carousel extends Component {
                                         </div>
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/7.jpeg" className="img-fluid" alt="Speaker" />
                                                 </div>
@@ -108,7 +109,7 @@ export default class Carousel extends Component {
                                         </div>
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/8.jpeg" className="img-fluid" alt="Galaxy" />
                                                 </div>
@@ -124,7 +125,7 @@ export default class Carousel extends Component {
                                     <div className="row">
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/9.jpeg" className="img-fluid" alt="iPhone" />
                                                 </div>
@@ -136,7 +137,7 @@ export default class Carousel extends Component {
                                         </div>
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/10.jpeg" className="img-fluid" alt="Canon" />
                                                 </div>
@@ -148,7 +149,7 @@ export default class Carousel extends Component {
                                         </div>
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/1.jpeg" className="img-fluid" alt="Pixel" />
                                                 </div>
@@ -160,7 +161,7 @@ export default class Carousel extends Component {
                                         </div>	
                                         <div className="col-sm-3">
                                             <div className="thumb-wrapper">
-                                                <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
+                                                <Favorite idUser={1} idProduct={1} />
                                                 <div className="img-box">
                                                     <img src="assets/img/2.jpeg" className="img-fluid" alt="Watch" />
                                                 </div>

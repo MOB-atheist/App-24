@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 import Search from '../Search';
-import Carousel from '../Cart';
 import Cart from '../Cart';
 import Navbar from '../Navbar';
 
@@ -20,7 +19,26 @@ const Header = () => (
                     <Cart />
                 </div>
             </div>
-            <Navbar />
+            <Navbar menus={[
+                {menu: {
+                    name:'inicio',
+                    subitens: [
+                        { name: 'teste', path: '/', isolated: false }
+                    ]
+                }},
+                {menu: {
+                    name:'Produtos',
+                    subitens: [
+                        { name: 'teste', path: '/products', isolated: false }
+                    ]
+                }},
+                {menu: {
+                    name:'teste',
+                    subitens: [
+                        { name: 'teste', path: '/', isolated: false }
+                    ]
+                }}
+            ]}/>
         </div>
     </header>
 )
