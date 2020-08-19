@@ -21,6 +21,7 @@ export default class Main extends Component {
                 <Carousel />
                 <Banners />
                 <Cardflips />
+                
             </div>   
         )
     }
